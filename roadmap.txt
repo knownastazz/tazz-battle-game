@@ -1,0 +1,82 @@
+Array for inventory
+Array for all the rooms
+Array for all possible items / descriptions
+Array for all possible enemies / possible drops / health / damage / etc.
+
+Player starts with 200 health, sword with 2 attacks. Swing, and Swipe. 
+Fighting system
+
+Player has 2 attacks related to their weapon, and one custom ability. Default ability is meditate.
+
+Abilities:
+  Meditate. regain 25 percent of health.
+  Shield. Permenant +6% damage reduction
+  Thorns. +3% damage reflection.
+
+Various weapons / potions
+  Potion 1: Power up for damage
+  Potion 2: Extra health
+  Potion 3: 5% damage not taken from enemy 
+  
+  Sword.
+    Attack 1: swing. 30 damage
+    Attack 2: stab. 25 damage. Permenant 3% damage reduction
+
+  Roti roller.
+    Attack 1: Roll. Does 40 damage. 33% chance to crit for + 25 damage.
+    Attack 2: Smack. Does 50 damage.
+
+  Keyboard. 
+    Attack 1: Ragequit. does 75 damage. +3% damage vulnerability to attacker
+    Attack 2: W key. does 60 damage.
+
+  Boiling Flask. 
+    Attack 1: Smash. does 100 damage. +3% damage reduction to attacker after attack.
+    Attack 2: Bonk. Does 75 damage.
+  
+  
+Each room has unique enemy, random drops with hard boss at the end.
+  Room 1: NAV
+    Health: 150.
+    Attack 1: Bad intentions. 30 damage, gives nav 5 health back.
+    Attack 2: Emergency Tsunami. 25 damage, gives nav 5% damage reduction.
+    Attack 3: Good habits. Regain 25 health.
+
+    Drops:
+      25% chance of health potion
+      25% chance of damage potion
+      25% chance of damage reduction potion
+      100% chance of Roti Roller
+
+  Room 2: Mr. Simonsen
+    Health: 250.
+    Attack 1: Grading on time. 50 damage, gives mr.simonsen 3% damage reduction
+    Attack 2: Lightsaber. 60 damage, no affects.
+    Attack 3: Dirt house. 6% damage reduction.
+    
+    Drops:
+      50% chance of health potion
+      50% chance of damage potion
+      50% chance of damage reduction potion
+      100% chance of Keyboard
+      
+  Room 3: Walter White
+    Health: 300.
+    Attack 1: Red Phosphorus. 60 damage, gives walter white 25 health back.
+    Attack 2: Fulminate of Mercury. 50 damage, hurts both npc and player. walter white receives 10% damage reduction.
+    Attack 3: Crystal Math. Regains 20% of health by completing math equations with crystals.
+
+    Drops:
+      75% chance of health potion
+      75% chance of damage potion
+      75% chance of damage reduction potion
+      100% chance of Boiling Flask
+      
+
+  Room 4: Tazim Rahman
+    Health: 400.
+    Attack 1: Spill soda cup. 100 damage
+    Attack 2: BMW. Regain 25 health, Deal 75 damage.
+    Attack 3: Ramadan. Gains 10% damage reduction.
+
+    no drops. game ends
